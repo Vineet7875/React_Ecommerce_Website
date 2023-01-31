@@ -1,0 +1,165 @@
+.Cart1 {
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    background-color: rgba(59, 130, 246, .5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.Cart {
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    color: black;
+    margin-top: 1rem;
+}
+
+.Cart1 h1 {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    color: black;
+    margin-top: 6rem;
+    margin-left: 4rem;
+}
+
+.Cart2 {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 2rem;
+    column-gap: 5rem;
+    justify-content: space-around;
+}
+
+.cardcart {
+    background-color: black;
+    color: white;
+    height: 19rem;
+    width: 55rem;
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    text-align: start;
+    margin-top: 2rem;
+}
+
+.cardcart1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    line-height: 4rem;
+}
+
+.cardcart p {
+    padding: 0 2rem;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+}
+
+.cardcart h3 {
+    color: #baff39;
+    font-size: 2rem;
+}
+
+.cardcart img {
+    height: 13rem;
+    margin: 2rem;
+}
+
+.btn {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+
+.btn:hover {
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 0rem 3rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.btn1 {
+    margin-top: 6rem;
+    border-radius: 0.7rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    font-size: 1.7rem;
+    height: 4.5rem;
+    width: 9.5rem;
+}
+
+.btn1:hover {
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+
+}
+
+.total h2 {
+    font-size: 2.5rem;
+    color: white;
+    background: black;
+    padding: 1rem;
+    border-radius: 4rem;
+}
+
+@media only screen and (max-width :560px) {
+    .cardcart {
+        width: 42rem;
+    }
+
+    .Cart1 h1 {
+        margin-left: 0rem;
+    }
+
+    .btn1 {
+        font-size: 1.3rem;
+        height: 4rem;
+        width: 7rem;
+    }
+}
+
+@media only screen and (max-width :430px) {
+    .cardcart {
+        width: 32rem;
+    }
+
+    .Cart1 h1 {
+        margin-left: 0rem;
+    }
+
+    .btn1 {
+        font-size: 1.3rem;
+        height: 4rem;
+        width: 7rem;
+    }
+}

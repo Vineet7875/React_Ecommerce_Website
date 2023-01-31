@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "product_name": "Iphone",
+        "price": 74900,
+        "img_url": "iphone.png",
+        "qty": 1
+    },
+    {
+        "id": 2,
+        "product_name": "Samsung",
+        "price": 106999,
+        "img_url": "samsung.png",
+        "qty": 1
+    },
+    {
+        "id": 3,
+        "product_name": "Poco",
+        "price": 13999,
+        "img_url": "poco.png",
+        "qty": 1
+    },
+    {
+        "id": 4,
+        "product_name": "Oppo",
+        "price": 15499,
+        "img_url": "oppo.png",
+        "qty": 1
+    },
+    {
+        "id": 5,
+        "product_name": "Redmi",
+        "price": 11999,
+        "img_url": "redmi.png",
+        "qty": 1
+    },
+    {
+        "id": 6,
+        "product_name": "Vivo",
+        "price": 18499,
+        "img_url": "vivo.png",
+        "qty": 1
+    }
+]

@@ -1,0 +1,94 @@
+.Product1 {
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    background-color:rgba(59,130,246,.5);
+    color: white;
+}
+
+#Product {
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.Product1 h1 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    /* color: #baff39; */
+    color:black;
+}
+
+.Product2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 2rem;
+    column-gap: 5rem;
+    justify-content: space-around;
+}
+
+.cardpro {
+    background-color: black;
+    color: white;
+    height: 37rem;
+    width: 30rem;
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: start;
+    padding-top: 2rem;
+    transition: all .5s;
+}
+
+.cardpro p{
+    padding: 0 2rem;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+}
+
+.cardpro h3{
+    color: #baff39;
+    font-size: 2rem;
+}
+
+.cardpro img {
+    height: 20rem;
+    margin: 1rem;
+}
+
+button{
+    height: 3rem;
+    width: 8rem;
+    border-radius: 5rem;
+    cursor: pointer;
+    font-size: 1.3rem;
+    border: 1px solid white;
+    background-color:black;
+    color: white;
+}
+button:hover{
+    border: 1px solid white;
+    background-color:white;
+    color: black;
+}
+
+@media only screen and (max-width :1130px) {
+    .Product2 {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media only screen and (max-width :720px) {
+    .Product2 {
+        grid-template-columns: auto;
+    }
+    #Product {
+        padding-top: 7rem;
+    }
+}
